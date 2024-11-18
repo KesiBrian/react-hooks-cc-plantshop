@@ -25,11 +25,11 @@ function PlantPage() {
   );
 
   return (
-    <>
+    <main>
       <NewPlantForm onAddPlant={handleAddPlant} />
       <Search searchTerm={searchTerm} onSearchChange={setSearchTerm} />
       <PlantList plants={displayedPlants} />
-    </>
+    </main>
   );
 }
 
